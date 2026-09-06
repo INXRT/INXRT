@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HERO CUSTOM BANNER -->
-<img src="assets/banner.jpg" alt="INXRT Banner" width="100%" />
+<img src="assets/banner.jpg" alt="INXRT Banner" width="75%" />
 
 <br/>
 
