@@ -147,8 +147,28 @@
         </a>
       </td>
     </tr>
+    <tr>
+      <td>
+        <strong>⚡ The Lab & Beyond</strong><br/>
+        <sub>R&D • Incubating Engines</sub>
+      </td>
+      <td>
+        <em>Constantly architecting new web engines, music tech tools, AI audio pipelines, and private SaaS portals. More showcase clones deployed as builds reach production.</em>
+      </td>
+      <td>
+        <a href="https://github.com/INXRT?tab=repositories">
+          <img src="https://img.shields.io/badge/Explore%20All%20Repos-View%20Catalog-6e5494?style=flat-square&logo=github&logoColor=white" />
+        </a><br/>
+        <img src="https://img.shields.io/badge/Pipeline-More%20Cooking...-A855F7?style=flat-square&logo=git&logoColor=white" />
+      </td>
+    </tr>
   </tbody>
 </table>
+
+<p align="center">
+  <em>⚡ <strong>Active Radar:</strong> Multiple confidential web platforms, audio DSP tools, and AI engines are currently in private staging.<br/>
+  As projects stabilize, public display clones are published directly to <a href="https://github.com/INXRT?tab=repositories"><strong>@INXRT repositories</strong></a>.</em>
+</p>
 
 ---
 
