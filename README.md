@@ -59,7 +59,7 @@ I'm **INXRT** — music producer (Phonk, Brazilian Funk, etc) and full-stack web
         <strong>The Signal</strong><br/>
         <sub>Music Distribution</sub>
       </td>
-      <td>Enterprise music distribution and label management portal with automated ISRC/UPC ingestion, sublabel management, and contract tracking.</td>
+      <td>Music distribution and label management portal with automated workflow, sublabel management, and releases processing.</td>
       <td>
         <a href="https://distro.thesignalent.com/" target="_blank">
           <img src="https://img.shields.io/badge/Live-distro.thesignalent.com-000?style=flat-square&logo=vercel&logoColor=white" />
