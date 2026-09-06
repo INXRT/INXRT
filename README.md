@@ -201,13 +201,15 @@ I'm **INXRT** — music producer (Phonk, Brazilian Funk, Hardtekk) and full-stac
 ### GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.shion.dev/api?username=INXRT&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="INXRT GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=INXRT&layout=compact&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="Top Languages" height="165" />
-</div>
+  <!-- METRICS HUD -->
+  <p>
+    <img src="https://img.shields.io/badge/Total%20Contributions-455%2B-7aa2f7?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/Total%20Repositories-21-bb9af7?style=for-the-badge&logo=git&logoColor=white" />
+    <img src="https://img.shields.io/badge/Production%20Portals-6%20Live-7dcfff?style=for-the-badge&logo=vercel&logoColor=white" />
+  </p>
 
-<div align="center">
-  <br/>
-  <img src="https://streak-stats.demolab.com/?user=INXRT&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <!-- STREAK & CONTRIBUTION CALENDAR (COUNTS PRIVATE + PUBLIC CONTRIBUTIONS) -->
+  <img src="https://streak-stats.demolab.com/?user=INXRT&theme=tokyonight&hide_border=true" alt="GitHub Contributions & Streak" />
 </div>
 
 ---
