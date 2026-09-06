@@ -37,7 +37,7 @@
 I'm **INXRT** — music producer (Phonk, Brazilian Funk, etc) and full-stack web developer building platforms, portals, and tools.
 
 - 🎧 **Music**: Producing phonk and high-energy electronic tracks.
-- 💻 **Dev**: Building web applications and tools ^-^
+- 💻 **Dev**: Building web applications and tools ^_^
 - 💬 **Discord**: Best place to reach me — `INXRT` ([Click here to connect](https://discord.com/users/770669145854967836)).
 
 ---
