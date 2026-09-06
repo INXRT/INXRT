@@ -13,10 +13,10 @@
 <!-- SOCIAL COMMAND CENTER -->
 <p align="center">
   <a href="https://discord.com/users/770669145854967836" target="_blank">
-    <img src="https://img.shields.io/badge/Discord-Add%20Me%20(770669145854967836)-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+    <img src="https://img.shields.io/badge/Discord-INXRT-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
   </a>
   <a href="https://open.spotify.com/artist/53iSSz8h8DCG0blxwCFtrV" target="_blank">
-    <img src="https://img.shields.io/badge/Spotify-INXRT%20Artist-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify" />
+    <img src="https://img.shields.io/badge/Spotify-INXRT-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify" />
   </a>
   <a href="https://instagram.com/inxrtmusic" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-@inxrtmusic-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
@@ -39,7 +39,7 @@
 │  • Moniker     : INXRT                                                    │
 │  • Disciplines : Phonk / Funk Producer • Full-Stack Web Engineer          │
 │  • Vibe        : Dark Cyberpunk • High-Adrenaline Club Sound • Fluid UI   │
-│  • Comms       : Discord active (@inxrt / 770669145854967836)             │
+│  • Comms       : Discord : INXRT             │
 └───────────────────────────────────────────────────────────────────────────┘
 ```
 > Multigenre music producer crafting raw Brazilian Phonk, Funk Automotivo, and Hardtekk basslines by night; engineering high-performance web applications, digital label ecosystems, and media distribution platforms by day.
@@ -157,7 +157,7 @@
 <div align="center">
   <p>
     <a href="https://open.spotify.com/artist/53iSSz8h8DCG0blxwCFtrV" target="_blank">
-      <img src="https://img.shields.io/badge/STREAM%20ON%20SPOTIFY-INXRT%20OFFICIAL-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify Stream" />
+      <img src="https://img.shields.io/badge/Spotify-INXRT-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify Stream" />
     </a>
   </p>
 </div>
