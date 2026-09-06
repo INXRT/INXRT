@@ -1,0 +1,145 @@
+name: Update Contribution Graph
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Run daily at midnight
+  workflow_dispatch:
+
+jobs:
+  update-heatmap:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install requests
+        run: pip install requests
+      - name: Fetch and Generate Contributions SVG
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python - << 'EOF'
+          import os, requests
+          from datetime import datetime
+
+          token = os.environ.get("GH_TOKEN")
+          headers = {
+              "Authorization": f"Bearer {token}",
+              "Accept": "application/vnd.github.v3+json",
+              "User-Agent": "Calendar-Fetcher"
+          }
+
+          query = """
+          query {
+            user(login: "INXRT") {
+              contributionsCollection {
+                contributionCalendar {
+                  totalContributions
+                  weeks {
+                    contributionDays {
+                      contributionCount
+                      date
+                      weekday
+                    }
+                  }
+                }
+              }
+            }
+          }
+          """
+
+          r = requests.post("https://api.github.com/graphql", json={"query": query}, headers=headers)
+          data = r.json()
+          cal = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+          total_contribs = cal["totalContributions"]
+          weeks = cal["weeks"]
+
+          def get_color(count):
+              if count == 0: return "#161b22"
+              elif count <= 2: return "#0e4429"
+              elif count <= 5: return "#006d32"
+              elif count <= 9: return "#26a641"
+              else: return "#39d353"
+
+          cell_size = 11
+          cell_gap = 3
+          start_x = 32
+          start_y = 42
+
+          width = start_x + (len(weeks) * (cell_size + cell_gap)) + 20
+          height = start_y + (7 * (cell_size + cell_gap)) + 30
+
+          month_labels = []
+          current_month = None
+          svg_cells = []
+
+          for w_idx, week in enumerate(weeks):
+              first_day = week["contributionDays"][0]
+              dt = datetime.strptime(first_day["date"], "%Y-%m-%d")
+              m_name = dt.strftime("%b")
+              if m_name != current_month:
+                  current_month = m_name
+                  month_x = start_x + (w_idx * (cell_size + cell_gap))
+                  month_labels.append(f'<text x="{month_x}" y="30" fill="#7d8590" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10">{m_name}</text>')
+
+              for day in week["contributionDays"]:
+                  weekday = day["weekday"]
+                  count = day["contributionCount"]
+                  date_str = day["date"]
+                  color = get_color(count)
+                  x = start_x + (w_idx * (cell_size + cell_gap))
+                  y = start_y + (weekday * (cell_size + cell_gap))
+                  svg_cells.append(f'<rect x="{x}" y="{y}" width="{cell_size}" height="{cell_size}" rx="2" ry="2" fill="{color}"><title>{date_str}: {count} contribution{"s" if count != 1 else ""}</title></rect>')
+
+          months_svg = "\n".join(month_labels)
+          cells_svg = "\n".join(svg_cells)
+
+          mon_y = start_y + (1 * (cell_size + cell_gap)) + 9
+          wed_y = start_y + (3 * (cell_size + cell_gap)) + 9
+          fri_y = start_y + (5 * (cell_size + cell_gap)) + 9
+
+          weekday_labels = f"""
+          <text x="8" y="{mon_y}" fill="#7d8590" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="9">Mon</text>
+          <text x="8" y="{wed_y}" fill="#7d8590" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="9">Wed</text>
+          <text x="8" y="{fri_y}" fill="#7d8590" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="9">Fri</text>
+          """
+
+          legend_x = width - 130
+          legend_y = height - 16
+          legend_svg = f"""
+          <g transform="translate({legend_x}, {legend_y})">
+            <text x="0" y="10" fill="#7d8590" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="9">Less</text>
+            <rect x="25" y="1" width="10" height="10" rx="2" ry="2" fill="#161b22" />
+            <rect x="38" y="1" width="10" height="10" rx="2" ry="2" fill="#0e4429" />
+            <rect x="51" y="1" width="10" height="10" rx="2" ry="2" fill="#006d32" />
+            <rect x="64" y="1" width="10" height="10" rx="2" ry="2" fill="#26a641" />
+            <rect x="77" y="1" width="10" height="10" rx="2" ry="2" fill="#39d353" />
+            <text x="92" y="10" fill="#7d8590" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="9">More</text>
+          </g>
+          """
+
+          svg_content = f"""<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="{width}" height="{height}" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+            <text x="16" y="18" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600">{total_contribs} contributions in the last year</text>
+            {months_svg}
+            {weekday_labels}
+            {cells_svg}
+            {legend_svg}
+          </svg>"""
+
+          os.makedirs("assets", exist_ok=True)
+          with open("assets/contributions.svg", "w", encoding="utf-8") as f:
+              f.write(svg_content)
+          print("Updated assets/contributions.svg")
+          EOF
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/contributions.svg
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-update contribution heatmap" && git push)
