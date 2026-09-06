@@ -7,7 +7,7 @@
 
 <!-- TYPEWRITER -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=1000&color=A855F7&center=true&vCenter=true&width=650&lines=Phonk+%26+Brazilian+Funk+Music+Producer;Full-Stack+Web+Developer+%26+Creative+Tech;Architecting+Next.js+%2B+Cloud+Audio+Platforms" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=1000&color=A855F7&center=true&vCenter=true&width=650&lines=Phonk+%26+Brazilian+Funk+Music+Producer;Full-Stack+Web+Developer+%26+Creative+Tech;Architecting+Tools+%2B+Web+Platforms" alt="Typing SVG" />
 </p>
 
 <!-- SOCIALS -->
