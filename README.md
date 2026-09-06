@@ -201,14 +201,18 @@ I'm **INXRT** — music producer (Phonk, Brazilian Funk, Hardtekk) and full-stac
 ### GitHub Stats
 
 <div align="center">
-  <!-- METRICS HUD -->
+  <!-- CONTRIBUTION HEATMAP (SHOWING ALL 394 CONTRIBUTIONS) -->
+  <img src="assets/contributions.svg" alt="394 contributions in the last year" width="100%" />
+
+  <br/><br/>
+
+  <!-- METRICS & STREAK -->
   <p>
     <img src="https://img.shields.io/badge/Total%20Contributions-455%2B-7aa2f7?style=for-the-badge&logo=github&logoColor=white" />
     <img src="https://img.shields.io/badge/Total%20Repositories-21-bb9af7?style=for-the-badge&logo=git&logoColor=white" />
     <img src="https://img.shields.io/badge/Production%20Portals-6%20Live-7dcfff?style=for-the-badge&logo=vercel&logoColor=white" />
   </p>
-
-  <!-- STREAK & CONTRIBUTION CALENDAR (COUNTS PRIVATE + PUBLIC CONTRIBUTIONS) -->
+  
   <img src="https://streak-stats.demolab.com/?user=INXRT&theme=tokyonight&hide_border=true" alt="GitHub Contributions & Streak" />
 </div>
 
