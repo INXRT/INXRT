@@ -1,7 +1,9 @@
 <div align="center">
 
-<!-- HERO DYNAMIC BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,12,25,30&height=220&section=header&text=INXRT&fontSize=74&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=MUSIC%20PRODUCER%20%E2%80%A2%20CREATIVE%20TECHNOLOGIST%20%E2%80%A2%20FULL-STACK%20ENGINEER&descAlignY=58&descAlign=50" width="100%" />
+<!-- HERO CUSTOM BANNER -->
+<img src="assets/banner.jpg" alt="INXRT Banner" width="100%" />
+
+<br/>
 
 <!-- DYNAMIC TYPEWRITER TERMINAL -->
 <p align="center">
@@ -207,8 +209,6 @@
 ---
 
 <div align="center">
-  <!-- FOOTER WAVE -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=30,25,12,6,1&height=120&section=footer" width="100%" />
   <p><sub>ENGINEERED BY INXRT • BUILT ON SOUND & CODE</sub></p>
   <img src="https://komarev.com/ghpvc/?username=INXRT&style=flat-square&color=8b5cf6" alt="Profile Views" />
 </div>
