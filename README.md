@@ -34,10 +34,10 @@
 ---
 
 ### About Me
-I'm **INXRT** — music producer (Phonk, Brazilian Funk, Hardtekk) and full-stack web developer building platforms, portals, and tools.
+I'm **INXRT** — music producer (Phonk, Brazilian Funk, etc) and full-stack web developer building platforms, portals, and tools.
 
-- 🎧 **Music**: Producing underground phonk and high-energy electronic tracks (*E R O S I O N*, *W I N T E R*, *MONTAGEM TERREMOTO*).
-- 💻 **Dev**: Building web applications with Next.js, React, Tailwind, and cloud infrastructure.
+- 🎧 **Music**: Producing phonk and high-energy electronic tracks.
+- 💻 **Dev**: Building web applications and tools ^-^
 - 💬 **Discord**: Best place to reach me — `INXRT` ([Click here to connect](https://discord.com/users/770669145854967836)).
 
 ---
@@ -75,7 +75,7 @@ I'm **INXRT** — music producer (Phonk, Brazilian Funk, Hardtekk) and full-stac
         <strong>Villain Arc Records</strong><br/>
         <sub>Electronic Record Label</sub>
       </td>
-      <td>Underground electronic music label website for Hardstyle & Hardtekk releases with Spotify playlist vaults and catalog streaming.</td>
+      <td>Electronic music label website for Hardstyle & Hardtekk releases with Spotify playlists and huge catalog.</td>
       <td>
         <a href="https://villainarcrecords.com/" target="_blank">
           <img src="https://img.shields.io/badge/Live-villainarcrecords.com-dc2626?style=flat-square&logo=spotify&logoColor=white" />
@@ -91,7 +91,7 @@ I'm **INXRT** — music producer (Phonk, Brazilian Funk, Hardtekk) and full-stac
         <strong>Grozik Media</strong><br/>
         <sub>Marketing Agency & Label</sub>
       </td>
-      <td>Music marketing agency and record label website built with smooth inertial scrolling (Lenis/GSAP), viral campaigns, and artist rollouts.</td>
+      <td>Music marketing agency and record label built for viral campaigns, and artist rollouts.</td>
       <td>
         <a href="https://grozik.media/" target="_blank">
           <img src="https://img.shields.io/badge/Live-grozik.media-111?style=flat-square&logo=safari&logoColor=white" />
@@ -121,7 +121,7 @@ I'm **INXRT** — music producer (Phonk, Brazilian Funk, Hardtekk) and full-stac
       <td align="center">
         <img src="assets/logos/aurapod.svg" alt="AuraPod" width="44" /><br/>
         <strong>AuraPod</strong><br/>
-        <sub>RF & Caching Hub</sub>
+        <sub>RF & Caching Hub (Prototype)</sub>
       </td>
       <td>Portable RF signal concentrator and campus caching hub engineered for low-connectivity academic environments.</td>
       <td>
@@ -169,9 +169,8 @@ I'm **INXRT** — music producer (Phonk, Brazilian Funk, Hardtekk) and full-stac
   </p>
 </div>
 
-- **Genres**: Brazilian Phonk, Funk Automotivo, Hardtekk, Electronic
-- **Releases**: *E R O S I O N*, *W I N T E R*, *MONTAGEM TERREMOTO*
-- **Tools**: FL Studio, custom distortion racks, FFmpeg
+- **Genres**: Phonk, Funk, and many more...
+- **Tools**: FL Studio, Resonic, etc.
 
 ---
 
