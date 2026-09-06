@@ -1,16 +1,16 @@
 <div align="center">
 
-<!-- HERO CUSTOM BANNER -->
-<img src="assets/banner.jpg" alt="INXRT Banner" width="75%" />
+<!-- HERO BANNER -->
+<img src="assets/banner.jpg" alt="INXRT" width="75%" />
 
 <br/>
 
-<!-- DYNAMIC TYPEWRITER TERMINAL -->
+<!-- TYPEWRITER -->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=1000&color=A855F7&center=true&vCenter=true&width=650&lines=Phonk+%26+Brazilian+Funk+Music+Producer;Full-Stack+Web+Developer+%26+Creative+Tech;Architecting+Next.js+%2B+Cloud+Audio+Platforms;Turning+Heavy+Basslines+into+Production+Code;Welcome+to+the+Underground" alt="Typing SVG" />
 </p>
 
-<!-- SOCIAL COMMAND CENTER -->
+<!-- SOCIALS -->
 <p align="center">
   <a href="https://discord.com/users/770669145854967836" target="_blank">
     <img src="https://img.shields.io/badge/Discord-INXRT-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
@@ -33,99 +33,100 @@
 
 ---
 
-### ⚡ Transmission // About Me
-```text
-┌─── IDENTITY ──────────────────────────────────────────────────────────────┐
-│  • Moniker     : INXRT                                                    │
-│  • Disciplines : Phonk / Funk Producer • Full-Stack Web Engineer          │
-│  • Vibe        : Dark Cyberpunk • High-Adrenaline Club Sound • Fluid UI   │
-│  • Comms       : Discord : INXRT             │
-└───────────────────────────────────────────────────────────────────────────┘
-```
-> Multigenre music producer crafting raw Brazilian Phonk, Funk Automotivo, and Hardtekk basslines by night; engineering high-performance web applications, digital label ecosystems, and media distribution platforms by day.
+### About Me
+I'm **INXRT** — music producer (Phonk, Brazilian Funk, Hardtekk) and full-stack web developer building platforms, portals, and tools.
+
+- 🎧 **Music**: Producing underground phonk and high-energy electronic tracks (*E R O S I O N*, *W I N T E R*, *MONTAGEM TERREMOTO*).
+- 💻 **Dev**: Building web applications with Next.js, React, Tailwind, and cloud infrastructure.
+- 💬 **Discord**: Best place to reach me — `INXRT` ([Click here to connect](https://discord.com/users/770669145854967836)).
 
 ---
 
-### 🚀 Production Platforms & Live Deployments
+### Projects & Platforms
 
 <table>
   <thead>
     <tr>
-      <th width="28%">Platform</th>
-      <th width="44%">Architecture & Mission</th>
-      <th width="28%">Access Points</th>
+      <th width="24%">Project</th>
+      <th width="50%">Description</th>
+      <th width="26%">Links</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>
-        <strong>⚡ The Signal</strong><br/>
-        <sub>Enterprise Music Distribution</sub>
+      <td align="center">
+        <img src="assets/logos/thesignal.png" alt="The Signal" width="48" /><br/>
+        <strong>The Signal</strong><br/>
+        <sub>Music Distribution</sub>
       </td>
-      <td>High-end music distribution portal, automated ISRC/UPC ingestion, sublabel approval flow, split-sheet ledger, and recoupment management.</td>
+      <td>Enterprise music distribution and label management portal with automated ISRC/UPC ingestion, sublabel management, and contract tracking.</td>
       <td>
         <a href="https://distro.thesignalent.com/" target="_blank">
-          <img src="https://img.shields.io/badge/Launch%20Live-distro.thesignalent.com-000?style=flat-square&logo=vercel&logoColor=white" />
+          <img src="https://img.shields.io/badge/Live-distro.thesignalent.com-000?style=flat-square&logo=vercel&logoColor=white" />
         </a><br/>
         <a href="https://github.com/INXRT/TheSIGNAL">
-          <img src="https://img.shields.io/badge/Showcase%20Repo-INXRT%2FTheSIGNAL-6e5494?style=flat-square&logo=github&logoColor=white" />
+          <img src="https://img.shields.io/badge/Repo-INXRT%2FTheSIGNAL-6e5494?style=flat-square&logo=github&logoColor=white" />
         </a>
       </td>
     </tr>
     <tr>
-      <td>
-        <strong>🔥 Villain Arc Records</strong><br/>
-        <sub>Underground Electronic Label</sub>
+      <td align="center">
+        <img src="assets/logos/villainarc.png" alt="Villain Arc Records" width="48" /><br/>
+        <strong>Villain Arc Records</strong><br/>
+        <sub>Electronic Record Label</sub>
       </td>
-      <td>Independent electronic record label portal celebrating raw sound intensity, dark cyberpunk aesthetics, Hardstyle, Hardtekk, and curated Spotify vaults.</td>
+      <td>Underground electronic music label website for Hardstyle & Hardtekk releases with Spotify playlist vaults and catalog streaming.</td>
       <td>
         <a href="https://villainarcrecords.com/" target="_blank">
-          <img src="https://img.shields.io/badge/Enter%20Label-villainarcrecords.com-dc2626?style=flat-square&logo=spotify&logoColor=white" />
+          <img src="https://img.shields.io/badge/Live-villainarcrecords.com-dc2626?style=flat-square&logo=spotify&logoColor=white" />
         </a><br/>
         <a href="https://github.com/INXRT/VillainArcRecords">
-          <img src="https://img.shields.io/badge/Showcase%20Repo-INXRT%2FVillainArcRecords-6e5494?style=flat-square&logo=github&logoColor=white" />
+          <img src="https://img.shields.io/badge/Repo-INXRT%2FVillainArcRecords-6e5494?style=flat-square&logo=github&logoColor=white" />
         </a>
       </td>
     </tr>
     <tr>
-      <td>
-        <strong>⚡ Grozik Media</strong><br/>
-        <sub>Music Marketing Agency & Record Label</sub>
+      <td align="center">
+        <img src="assets/logos/grozik.png" alt="Grozik Media" width="48" /><br/>
+        <strong>Grozik Media</strong><br/>
+        <sub>Marketing Agency & Label</sub>
       </td>
-      <td>Viral TikTok campaign strategy, influencer networks, artist rollouts, and kinetic dark-mode UI with Lenis inertial smooth scrolling and GSAP timelines.</td>
+      <td>Music marketing agency and record label website built with smooth inertial scrolling (Lenis/GSAP), viral campaigns, and artist rollouts.</td>
       <td>
         <a href="https://grozik.media/" target="_blank">
-          <img src="https://img.shields.io/badge/Visit%20Agency-grozik.media-111?style=flat-square&logo=safari&logoColor=white" />
+          <img src="https://img.shields.io/badge/Live-grozik.media-111?style=flat-square&logo=safari&logoColor=white" />
         </a><br/>
         <a href="https://github.com/INXRT/GrozikMedia">
-          <img src="https://img.shields.io/badge/Showcase%20Repo-INXRT%2FGrozikMedia-6e5494?style=flat-square&logo=github&logoColor=white" />
+          <img src="https://img.shields.io/badge/Repo-INXRT%2FGrozikMedia-6e5494?style=flat-square&logo=github&logoColor=white" />
         </a>
       </td>
     </tr>
     <tr>
-      <td>
-        <strong>🧬 STEMIC</strong><br/>
-        <sub>Next-Gen Audio Marketplace</sub>
+      <td align="center">
+        <img src="assets/logos/stemic.png" alt="STEMIC" width="44" /><br/>
+        <strong>STEMIC</strong><br/>
+        <sub>Audio Marketplace</sub>
       </td>
-      <td>0% fee Pro Seller tier ("Keep 100%"), Community Feedback Credit economy, automated 3D pack box generator, and anti-piracy audio watermarking.</td>
+      <td>Audio sample pack marketplace featuring a 0% platform fee seller tier, community track feedback credits, and audio watermarking.</td>
       <td>
         <a href="https://stemic.org/" target="_blank">
-          <img src="https://img.shields.io/badge/Marketplace-stemic.org-9D50BB?style=flat-square&logo=googlecloud&logoColor=white" />
+          <img src="https://img.shields.io/badge/Live-stemic.org-9D50BB?style=flat-square&logo=googlecloud&logoColor=white" />
         </a><br/>
         <a href="https://github.com/INXRT/StemicWEB">
-          <img src="https://img.shields.io/badge/Showcase%20Repo-INXRT%2FStemicWEB-6e5494?style=flat-square&logo=github&logoColor=white" />
+          <img src="https://img.shields.io/badge/Repo-INXRT%2FStemicWEB-6e5494?style=flat-square&logo=github&logoColor=white" />
         </a>
       </td>
     </tr>
     <tr>
-      <td>
-        <strong>📡 AuraPod</strong><br/>
-        <sub>Portable RF & Caching Hub</sub>
+      <td align="center">
+        <img src="assets/logos/aurapod.svg" alt="AuraPod" width="44" /><br/>
+        <strong>AuraPod</strong><br/>
+        <sub>RF & Caching Hub</sub>
       </td>
-      <td>Resilient campus caching node and RF signal concentrator engineered to maintain flow in low-connectivity academic zones.</td>
+      <td>Portable RF signal concentrator and campus caching hub engineered for low-connectivity academic environments.</td>
       <td>
         <a href="https://aurapod.pages.dev/" target="_blank">
-          <img src="https://img.shields.io/badge/Open%20App-aurapod.pages.dev-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
+          <img src="https://img.shields.io/badge/Live-aurapod.pages.dev-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
         </a><br/>
         <a href="https://github.com/INXRT/AuraPod">
           <img src="https://img.shields.io/badge/Repo-INXRT%2FAuraPod-6e5494?style=flat-square&logo=github&logoColor=white" />
@@ -133,14 +134,15 @@
       </td>
     </tr>
     <tr>
-      <td>
-        <strong>🎮 PokeQuest</strong><br/>
+      <td align="center">
+        <img src="assets/logos/pokequest.png" alt="PokeQuest" width="44" /><br/>
+        <strong>PokeQuest</strong><br/>
         <sub>Gamified Productivity</sub>
       </td>
-      <td>Gamified productivity ecosystem turning daily task execution into XP, coin rewards, and companion Pokémon leveling.</td>
+      <td>Gamified productivity web app turning real-life tasks and to-dos into XP, coins, and Pokémon companion leveling.</td>
       <td>
         <a href="https://pokequestweb.vercel.app" target="_blank">
-          <img src="https://img.shields.io/badge/Play%20Web-pokequestweb-22c55e?style=flat-square&logo=vercel&logoColor=white" />
+          <img src="https://img.shields.io/badge/Live-pokequestweb-22c55e?style=flat-square&logo=vercel&logoColor=white" />
         </a><br/>
         <a href="https://github.com/INXRT/PokeQuest">
           <img src="https://img.shields.io/badge/Repo-INXRT%2FPokeQuest-6e5494?style=flat-square&logo=github&logoColor=white" />
@@ -148,47 +150,32 @@
       </td>
     </tr>
     <tr>
-      <td>
-        <strong>⚡ The Lab & Beyond</strong><br/>
-        <sub>R&D • Incubating Engines</sub>
-      </td>
-      <td>
-        <em>Constantly architecting new web engines, music tech tools, AI audio pipelines, and private SaaS portals. More showcase clones deployed as builds reach production.</em>
-      </td>
-      <td>
-        <a href="https://github.com/INXRT?tab=repositories">
-          <img src="https://img.shields.io/badge/Explore%20All%20Repos-View%20Catalog-6e5494?style=flat-square&logo=github&logoColor=white" />
-        </a><br/>
-        <img src="https://img.shields.io/badge/Pipeline-More%20Cooking...-A855F7?style=flat-square&logo=git&logoColor=white" />
+      <td align="center" colspan="3">
+        <em>...and many more. <a href="https://github.com/INXRT?tab=repositories">View all repositories →</a></em>
       </td>
     </tr>
   </tbody>
 </table>
 
-<p align="center">
-  <em>⚡ <strong>Active Radar:</strong> Multiple confidential web platforms, audio DSP tools, and AI engines are currently in private staging.<br/>
-  As projects stabilize, public display clones are published directly to <a href="https://github.com/INXRT?tab=repositories"><strong>@INXRT repositories</strong></a>.</em>
-</p>
-
 ---
 
-### 🎛️ Sound Architecture & Discography
+### Music & Releases
 
 <div align="center">
   <p>
     <a href="https://open.spotify.com/artist/53iSSz8h8DCG0blxwCFtrV" target="_blank">
-      <img src="https://img.shields.io/badge/Spotify-INXRT-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify Stream" />
+      <img src="https://img.shields.io/badge/Spotify-INXRT-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify" />
     </a>
   </p>
 </div>
 
-- **Sonic Signature**: Brazilian Phonk, Funk Automotivo, Hardtekk, Industrial Club Phonk, Heavy Sub-Bass
-- **Catalog Releases**: *E R O S I O N* • *W I N T E R* • *MONTAGEM TERREMOTO*
-- **Production Toolset**: FL Studio, Custom Saturation Racks, Modular Distortion, FFmpeg Transcoding Pipeline
+- **Genres**: Brazilian Phonk, Funk Automotivo, Hardtekk, Electronic
+- **Releases**: *E R O S I O N*, *W I N T E R*, *MONTAGEM TERREMOTO*
+- **Tools**: FL Studio, custom distortion racks, FFmpeg
 
 ---
 
-### 🛠️ Weapon of Choice // Engineering Arsenal
+### Tech Stack
 
 <div align="center">
   <p>
@@ -197,24 +184,21 @@
 </div>
 
 <details>
-<summary><strong>🔍 Click to inspect complete categorized stack</strong></summary>
+<summary><strong>🔍 Full Stack Breakdown</strong></summary>
 <br/>
 
-| Tier | Technologies & Protocols |
+| Category | Technologies |
 | :--- | :--- |
-| **Languages & Core** | TypeScript, JavaScript (ESNext), Python 3.11+, C++, HTML5, CSS3 |
-| **Frontend Frameworks** | Next.js (App Router, Server Components), React 18, Vite |
-| **Motion & Physics** | Framer Motion, GSAP (GreenSock), Lenis Smooth Inertial Scrolling, Anime.js |
-| **Styling & Design** | Tailwind CSS v4, Custom Dark Glassmorphism, Responsive Grid Systems |
-| **Cloud & Storage** | AWS S3 (Presigned URLs), Google Cloud Run, Google Cloud Storage, Firebase |
-| **Edge & Security** | Cloudflare Edge DNS, Cloudflare Turnstile Bot Defense, Sentry Telemetry |
-| **Database & DevOps** | PostgreSQL, Cloud Firestore, Docker, GitHub Actions, Vercel Production |
+| **Languages** | TypeScript, JavaScript, Python, C++, HTML5, CSS3 |
+| **Frontend** | Next.js, React, Vite, Tailwind CSS v4, Framer Motion, GSAP, Lenis |
+| **Cloud & Backend** | Node.js, Express, AWS S3, Google Cloud Run, Firebase, Cloudflare, PostgreSQL, Vercel |
+| **Tools** | Docker, Git, GitHub Actions, Sentry, FFmpeg, FL Studio |
 
 </details>
 
 ---
 
-### 📊 Telemetry & Live GitHub Analytics
+### GitHub Stats
 
 <div align="center">
   <img src="https://github-readme-stats.shion.dev/api?username=INXRT&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="INXRT GitHub Stats" height="165" />
@@ -229,6 +213,5 @@
 ---
 
 <div align="center">
-  <p><sub>ENGINEERED BY INXRT • BUILT ON SOUND & CODE</sub></p>
   <img src="https://komarev.com/ghpvc/?username=INXRT&style=flat-square&color=8b5cf6" alt="Profile Views" />
 </div>
